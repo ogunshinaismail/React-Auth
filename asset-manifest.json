@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/github.io/React-Auth/static/css/main.c34befa7.css",
-    "main.js": "/github.io/React-Auth/static/js/main.30ac3266.js",
+    "main.js": "/github.io/React-Auth/static/js/main.ae40245c.js",
     "static/media/college-student.png": "/github.io/React-Auth/static/media/college-student.e4f1bcd3b3723d86a951.png",
     "index.html": "/github.io/React-Auth/index.html",
     "main.c34befa7.css.map": "/github.io/React-Auth/static/css/main.c34befa7.css.map",
-    "main.30ac3266.js.map": "/github.io/React-Auth/static/js/main.30ac3266.js.map"
+    "main.ae40245c.js.map": "/github.io/React-Auth/static/js/main.ae40245c.js.map"
   },
   "entrypoints": [
     "static/css/main.c34befa7.css",
-    "static/js/main.30ac3266.js"
+    "static/js/main.ae40245c.js"
   ]
 }
