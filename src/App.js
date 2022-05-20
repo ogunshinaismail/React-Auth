@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <UserAuthContextProvider>
         <Routes>
-          <Route path='/React-Auth' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/sign-up' element={<SignUp />} />
           <Route path='/dashboard' element={<ProtectedRoute> <Dashboard /> </ProtectedRoute> } />
