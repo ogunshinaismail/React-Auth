@@ -17,10 +17,8 @@ const Admin = () => {
                 <Route path='dashboard' element={<Dashboard />}/>
             </Routes>
             <Routes>
-                <Route path='courses' element={<Courses />} />
-            </Routes>
-            <Routes>
-                <Route path='courses/:id' element={<CourseDetails />} />
+                <Route path='courses/' element={<Courses />} />
+                <Route path='courses/:subject' element={<CourseDetails />} />
             </Routes>
             <Routes>
                 <Route path='profile' element={<Profile />}/>

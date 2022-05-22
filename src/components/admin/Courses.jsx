@@ -10,9 +10,9 @@ const Courses = () => {
             <h1 className='course-header'>Courses</h1>
             <div className="course-card-container">
                 {courses.map((course) => (
-                    <div className="course-card">
-                        <Link to={`/courses/${course.id}`}>
-                            <p key={course.id}>{course.name}</p>
+                    <div className="course-card" key={course.id}>
+                        <Link to={`/admin/courses/${course.name}`}>
+                            <p>{course.name}</p>
                         </Link>
                     </div>
                 ))}

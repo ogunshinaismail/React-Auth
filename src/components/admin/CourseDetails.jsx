@@ -1,10 +1,16 @@
 import React from 'react'
+import '../../css/coursedetails.css'
 import { useParams } from 'react-router-dom'
+import { getCourse } from '../../courseData'
 
 const CourseDetails = () => {
-    let { id } = useParams();
+    let { subject } = useParams();
+    const courses = getCourse();
   return (
-    <div>Course details - { id }</div>
+    <div className='course-details'>
+        Course details - { subject }
+        {console.log(courses)}
+    </div>
   )
 }
 

@@ -9,8 +9,9 @@ const Profile = () => {
         <h1 className='profile-header'>Profile</h1>
         <div className="profile-card">
             { user && <img src={user.photoURL} alt="" />}
-            <p><b>Name:</b> <span>{user && user.displayName}</span></p>
-            <p><b>Email:</b> <span>{user && user.email}</span></p>
+            {user && (<p><b>Name:</b> <span>{user.displayName}</span></p>) }
+            {user && (<p><b>Email:</b> <span>{user.email}</span></p>) }
+            
         </div>
     </div>
   )

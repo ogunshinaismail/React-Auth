@@ -19,7 +19,7 @@ export const Login = () => {
       await logIn(email, password);
       navigate('/admin/dashboard')
       console.log(user);
-    } catch (err) {
+    } catch (err) { 
       setError(err.message)
     }
   }
