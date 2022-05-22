@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/github.io/React-Auth/static/css/main.c34befa7.css",
-    "main.js": "/github.io/React-Auth/static/js/main.ae40245c.js",
+    "main.css": "/github.io/React-Auth/static/css/main.c728e88a.css",
+    "main.js": "/github.io/React-Auth/static/js/main.a29bb6fe.js",
     "static/media/college-student.png": "/github.io/React-Auth/static/media/college-student.e4f1bcd3b3723d86a951.png",
+    "static/media/google.png": "/github.io/React-Auth/static/media/google.cadee8cdb0c0afb1a713.png",
+    "static/media/login.svg": "/github.io/React-Auth/static/media/login.09ea358b8712f4f2d5d8e4f2e5c387da.svg",
     "index.html": "/github.io/React-Auth/index.html",
-    "main.c34befa7.css.map": "/github.io/React-Auth/static/css/main.c34befa7.css.map",
-    "main.ae40245c.js.map": "/github.io/React-Auth/static/js/main.ae40245c.js.map"
+    "main.c728e88a.css.map": "/github.io/React-Auth/static/css/main.c728e88a.css.map",
+    "main.a29bb6fe.js.map": "/github.io/React-Auth/static/js/main.a29bb6fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.c34befa7.css",
-    "static/js/main.ae40245c.js"
+    "static/css/main.c728e88a.css",
+    "static/js/main.a29bb6fe.js"
   ]
 }
