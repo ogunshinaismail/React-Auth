@@ -1,0 +1,24 @@
+.sidebar {
+    width: 200px;
+    background: #2d2d53;
+    height: 100%;
+    color: #fff;
+    padding: 1rem;
+    position: absolute;
+}
+.sidebar-logo {
+    color: #c1edf0; 
+}
+.sidebar ul {
+    margin: 2rem 0;
+    list-style: none;
+}
+.sidebar li {
+    padding: 1rem 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sidebar li a {
+    text-decoration: none;
+    color: #fff;
+}

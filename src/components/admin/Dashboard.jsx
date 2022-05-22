@@ -1,27 +1,22 @@
 import React from 'react'
+import '../../css/dashboard.css'
 import { useUserAuth } from '../../context/UserAuthContext'
-
+import LoginSvg from '../../svg/login.svg'
 
 const Dashboard = () => {
-  let { user, logOut } = useUserAuth();
+  const { user } = useUserAuth();
 
-  const handleLogout = async () => {
-    try{
-      await logOut()
-      console.log(user);
-    }catch (err) {
-      console.log(err.message);
-    }
-  }
   return (
-    <div>
-        <h1>Dashboard</h1>
-        <p>Hello Welcome {user && user.email}</p>
-        <button onClick={handleLogout}>Log out</button>
-        </div>
-        
-        )
-      }
-      
+    <div className='dashboard'>
+      <div className="welcome-info">
+        <h1>Hello!</h1>
+        <p>Welcome {user && user.displayName}</p>
+      </div>
+      <object data={LoginSvg} width="200" height="200"> </object>
+    </div>
+
+  )
+}
+
 export default Dashboard
-// <button onClick={handleLogout}>Log out</button>
+// <p>Hello Welcome {user && user.email}</p>

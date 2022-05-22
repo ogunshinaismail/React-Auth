@@ -1,0 +1,31 @@
+.profile {
+    margin: 3rem 0 0 1rem;
+    position: absolute;
+    width: 100%;
+}
+.profile-header {
+    background: #2d2d53;
+    color: #fff;
+    border-radius: 20px;
+    width: 95%;
+    padding: 2rem;
+}
+.profile-card {
+    margin: 2rem auto;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background: #e8e8e8;
+}
+.profile-card img {
+    border-radius: 50%;
+    width: 100px;
+}
+.profile-card p {
+    font-size: 20px;
+}

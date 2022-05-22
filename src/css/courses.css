@@ -1,0 +1,31 @@
+.course {
+    margin: 0 0 0 1rem;
+}
+.course-header {
+    background: #2d2d53;
+    color: #fff;
+    border-radius: 20px;
+    width: 95%;
+    padding: 2rem;
+}
+.course-card-container {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+}
+.course-card {
+    height: 200px;
+    width: 200px;
+    background: #c1edf0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course-card p {
+    font-weight: 600;
+    font-size: 20px;
+}

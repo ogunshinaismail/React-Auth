@@ -1,0 +1,18 @@
+.dashboard {
+    margin: 3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 70%; */
+    background: #2d2d53;
+    padding: 2rem;
+    border-radius: 20px;
+    /* position: absolute; */
+    color: #fff;
+}
+.welcome-info h1 {
+    font-size: 50px;
+}
+.welcome-info p {
+    font-size: 20px;
+}
