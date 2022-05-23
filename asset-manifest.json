@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/github.io/React-Auth/static/css/main.c728e88a.css",
-    "main.js": "/github.io/React-Auth/static/js/main.a29bb6fe.js",
-    "static/media/college-student.png": "/github.io/React-Auth/static/media/college-student.e4f1bcd3b3723d86a951.png",
-    "static/media/google.png": "/github.io/React-Auth/static/media/google.cadee8cdb0c0afb1a713.png",
-    "static/media/login.svg": "/github.io/React-Auth/static/media/login.09ea358b8712f4f2d5d8e4f2e5c387da.svg",
-    "index.html": "/github.io/React-Auth/index.html",
-    "main.c728e88a.css.map": "/github.io/React-Auth/static/css/main.c728e88a.css.map",
-    "main.a29bb6fe.js.map": "/github.io/React-Auth/static/js/main.a29bb6fe.js.map"
+    "main.css": "/React-Auth/static/css/main.341f3323.css",
+    "main.js": "/React-Auth/static/js/main.35427326.js",
+    "static/media/google.png": "/React-Auth/static/media/google.cadee8cdb0c0afb1a713.png",
+    "static/media/teacher.svg": "/React-Auth/static/media/teacher.4fe3037c9c445a31d9b3417180f9ef10.svg",
+    "static/media/login.svg": "/React-Auth/static/media/login.09ea358b8712f4f2d5d8e4f2e5c387da.svg",
+    "index.html": "/React-Auth/index.html",
+    "main.341f3323.css.map": "/React-Auth/static/css/main.341f3323.css.map",
+    "main.35427326.js.map": "/React-Auth/static/js/main.35427326.js.map"
   },
   "entrypoints": [
-    "static/css/main.c728e88a.css",
-    "static/js/main.a29bb6fe.js"
+    "static/css/main.341f3323.css",
+    "static/js/main.35427326.js"
   ]
 }
