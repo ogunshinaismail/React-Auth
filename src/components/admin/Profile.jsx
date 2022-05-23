@@ -8,9 +8,9 @@ const Profile = () => {
     <div className='profile'>
         <h1 className='profile-header'>Profile</h1>
         <div className="profile-card">
-            { user && <img src={user.photoURL} alt="" />}
-            {user && (<p><b>Name:</b> <span>{user.displayName}</span></p>) }
-            {user && (<p><b>Email:</b> <span>{user.email}</span></p>) }
+            { user.photoURL && <img src={user.photoURL} alt="" />}
+            {user.displayName && (<p><b>Name:</b> <span>{user.displayName}</span></p>) }
+            {user.email && (<p><b>Email:</b> <span>{user.email}</span></p>) }
             
         </div>
     </div>

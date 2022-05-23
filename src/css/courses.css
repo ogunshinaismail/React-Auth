@@ -9,12 +9,11 @@
     padding: 2rem;
 }
 .course-card-container {
-    margin: 2rem 0;
+    width: 100%;
+    margin: 2rem auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-items: center;
-    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
 }
 .course-card {
     height: 200px;
@@ -28,4 +27,8 @@
 .course-card p {
     font-weight: 600;
     font-size: 20px;
+}
+.course-card a {
+    color: #0000ff;
+    text-decoration: none;
 }

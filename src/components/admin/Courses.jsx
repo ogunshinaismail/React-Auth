@@ -4,10 +4,12 @@ import { getCourse } from '../../courseData'
 import { Link } from 'react-router-dom';
 
 const Courses = () => {
-    const courses = getCourse();
+    const courses = getCourse(); 
     return (
         <div className='course'>
-            <h1 className='course-header'>Courses</h1>
+            <div className='course-header'>
+                <h1>Courses</h1>
+            </div>
             <div className="course-card-container">
                 {courses.map((course) => (
                     <div className="course-card" key={course.id}>
