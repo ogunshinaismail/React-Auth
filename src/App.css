@@ -17,6 +17,12 @@ nav {
   align-items: center;
   position: relative;
 }
+nav h1 {
+  color: #c1edf0;
+}
+.logo-pink {
+  color: #f9d5ac;
+}
 .login-btn {
   background: none;
   padding: .5rem 1.2rem;

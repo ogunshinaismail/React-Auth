@@ -1,4 +1,27 @@
 .course-details {
-    font-size: 40px;
+    /* font-size: 40px; */
     padding: 2rem;
+}
+.course-details-header {
+    background: #2d2d53;
+    color: #fff;
+    border-radius: 20px;
+    width: 95%;
+    padding: 2rem;
+}
+.course-details-body {
+    margin: 2rem 0;
+}
+.course-details-body h1 {
+    text-transform: uppercase;
+}
+.course-details-body h4 {
+    margin: 1rem 0 .4rem 0;
+}
+.course-details-body p {
+    font-size: 20px;
+}
+.course-details-body ul {
+    margin: 0 0 0 1.4rem;
+    font-size: 20px;
 }

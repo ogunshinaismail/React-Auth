@@ -10,7 +10,7 @@ export const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
-  let { logIn, googleSignIn, user } = useUserAuth()
+  let { logIn, googleSignIn } = useUserAuth()
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -18,7 +18,6 @@ export const Login = () => {
     try {
       await logIn(email, password);
       navigate('/admin/dashboard')
-      console.log(user);
     } catch (err) { 
       setError(err.message)
     }
@@ -29,7 +28,6 @@ export const Login = () => {
     try {
       await googleSignIn();
       navigate('/admin/dashboard');
-      console.log(user);
     } catch (err) {
       setError(err.message)
     }
@@ -67,15 +65,3 @@ export const Login = () => {
     </div>
   )
 }
-
-// <h1>Login</h1>
-//       {error && <p>{error}</p>}
-//       <form onSubmit={handleSubmit}>
-//         <label>Email</label>
-//         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-//         <label>Password</label>
-//         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-//         <button>Submit</button>
-//         <button onClick={handleGoogleSignIn}>Sign In with Google</button>
-//       </form>
-//       <p>Don't have an account? <Link to='/sign-up'>Sign Up</Link></p>

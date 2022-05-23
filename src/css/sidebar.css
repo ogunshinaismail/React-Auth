@@ -7,7 +7,11 @@
     position: absolute;
 }
 .sidebar-logo {
-    color: #c1edf0; 
+    color: #c1edf0;
+    font-size: 27px;
+}
+.logo-pink {
+    color: #f9d5ac;
 }
 .sidebar ul {
     margin: 2rem 0;

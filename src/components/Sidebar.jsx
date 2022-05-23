@@ -16,7 +16,7 @@ const Sidebar = () => {
     }
   return (
     <div className='sidebar'>
-        <h1 className='sidebar-logo'>LOGO</h1>
+        <h1 className='sidebar-logo'>KODE<span className='logo-pink'>CAMP</span></h1>
         <ul>
             <li><Link to='/admin/dashboard'>Dashboard</Link></li>
             <li><Link to='/admin/courses'>Courses</Link></li>

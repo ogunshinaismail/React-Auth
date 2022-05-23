@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../css/courses.css'
 import { getCourse } from '../../courseData'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
 
 const Courses = () => {
     const courses = getCourse(); 

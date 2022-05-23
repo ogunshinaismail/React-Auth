@@ -1,5 +1,4 @@
 import React from 'react'
-// import heroImg from '../college-student.png'
 import { Link } from 'react-router-dom'
 import Teacher from '../svg/teacher.svg'
 
@@ -7,7 +6,7 @@ const Home = () => {
   return (
     <div className="home">
         <nav>
-            <h1>LOGO</h1>
+            <h1>KODE<span className='logo-pink'>CAMP</span></h1>
             <Link to='/login'>
                 <button className='login-btn'>Login</button>
             </Link>
