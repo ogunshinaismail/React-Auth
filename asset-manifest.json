@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/React-Auth/static/css/main.72486038.css",
-    "main.js": "/React-Auth/static/js/main.247035e5.js",
+    "main.js": "/React-Auth/static/js/main.43c30b53.js",
     "static/media/google.png": "/React-Auth/static/media/google.cadee8cdb0c0afb1a713.png",
     "static/media/teacher.svg": "/React-Auth/static/media/teacher.4fe3037c9c445a31d9b3417180f9ef10.svg",
     "static/media/login.svg": "/React-Auth/static/media/login.09ea358b8712f4f2d5d8e4f2e5c387da.svg",
     "index.html": "/React-Auth/index.html",
     "main.72486038.css.map": "/React-Auth/static/css/main.72486038.css.map",
-    "main.247035e5.js.map": "/React-Auth/static/js/main.247035e5.js.map"
+    "main.43c30b53.js.map": "/React-Auth/static/js/main.43c30b53.js.map"
   },
   "entrypoints": [
     "static/css/main.72486038.css",
-    "static/js/main.247035e5.js"
+    "static/js/main.43c30b53.js"
   ]
 }
