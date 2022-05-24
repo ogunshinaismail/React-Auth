@@ -6,7 +6,7 @@ export const NotFound = () => {
         <div>
             <main style={{ padding: "1rem" }}>
                 <p>Not Fond</p>
-                <p>Go back to home page <span><Link to='/'>Here</Link></span></p>
+                <p>Go back to home page <span><Link to='/React-Auth'>Here</Link></span></p>
             </main>
         </div>
     )
